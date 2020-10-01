@@ -19,14 +19,14 @@ public class Scrolltext extends Application implements Runnable {
        Application.launch(args);
      }
     public void start(Stage stage) {
-       canvas = new Canvas(300,250);
+       canvas = new Canvas(300,300);
        gc = canvas.getGraphicsContext2D();
        tf=new TextField();
        FlowPane root=new FlowPane(10,10);
        root.getChildren().addAll(tf,canvas);
        Scene scene = new Scene(root);
        stage.setScene(scene);
-       stage.setTitle("A Responsive UI");
+       stage.setTitle("This is a Responsive UI");
        stage.show();
       
        tf.setOnAction(new EventHandler<ActionEvent>() {
