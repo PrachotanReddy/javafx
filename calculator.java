@@ -37,9 +37,9 @@ public class calculator extends Application{
 				diff=n1-n2;
 				quotient=n1/n2;
 				s.setText("Sum is"+Float.toString(sum));
-				pro.setText("P is"+Float.toString(product)); 
-				dif.setText("D is"+Float.toString(diff)); 
-				quo.setText("Q is"+Float.toString(quotient));  
+				pro.setText("Product is"+Float.toString(product)); 
+				dif.setText("Difference is"+Float.toString(diff)); 
+				quo.setText("Quotient is"+Float.toString(quotient));  
 			} 
 		};
 		click.setOnAction(event);
